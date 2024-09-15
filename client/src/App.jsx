@@ -19,7 +19,7 @@ function App() {
       <Router>
         <Routes>
 
-          {<Route path='/*' element={user?.user?.role === "admin" ? <AdminRoutes /> : <ProductRoutees />} />}
+          {<Route path='/*' element={user?.user?.role !== "admin" ? <AdminRoutes /> : <ProductRoutees />} />}
         </Routes>
       </Router>
           <Toaster />
