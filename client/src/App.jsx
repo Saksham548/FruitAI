@@ -6,6 +6,7 @@ import About from './components/About'
 import ProductRoutees from './Routes/ProductRoutees';
 import AdminRoutes from './Routes/AdminRoutes';
 import { Toaster } from 'react-hot-toast';
+import Faqs from './components/Faqs';
 function App() {
 
 
@@ -19,7 +20,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Login />} />
           <Route path="/homepage" element={<Home />} />
-          <Route path="/faq" element={<FaQ />} />
+          <Route path="/faq" element={<Faqs />} />
           <Route path="/chat" element={<iframe src="/chat.html" width="100%" height="500px" />} />
         </Routes>
       </Router>
