@@ -1,5 +1,5 @@
 import React from 'react'
-import FAQ from './FaQ'
+import FAQ from './Faqs'
 const FaQ = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-[#C9ABEF] to-[#7FE7EE] relative">
@@ -14,9 +14,9 @@ immune system and skin health. </p>
 </div> */}
 
 
-        {/* </div> */}
-        <FAQ/>
-      </div>
+      {/* </div> */}
+      <FAQ />
+    </div>
   )
 }
 

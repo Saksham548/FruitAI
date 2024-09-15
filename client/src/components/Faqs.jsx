@@ -4,7 +4,7 @@ import axios from "axios";
 import { baseURL } from "../utils/constant";
 import { toast } from "react-hot-toast";
 
-const FAQ = () => {
+const Faqs = () => {
 
   const ls = [{
     key: "kjfnwe",
@@ -60,4 +60,4 @@ const FAQ = () => {
   );
 };
 
-export default FAQ;
+export default Faqs;
