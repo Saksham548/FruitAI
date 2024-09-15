@@ -15,15 +15,15 @@ function App() {
 
   return (
     <>
-      {/* <BrowserRouter> */}
-      <Router>
+      <BrowserRouter>
+      {/* <Router> */}
         <Routes>
 
           {<Route path='/*' element={user?.user?.role !== "admin" ? <AdminRoutes /> : <ProductRoutees />} />}
         </Routes>
-      </Router>
+      {/* </Router> */}
           <Toaster />
-      {/* </BrowserRouter> */}
+      </BrowserRouter>
 
     </>
   )
