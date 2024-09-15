@@ -15,14 +15,14 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
-      {/* <Router> */}
+      <Router>
         <Routes>
-        <ProductRoutees/>
+          <Route path='/' element={<Login />} />
+          <Route path="/homepage" element={<Home />} />
+          <Route path="/faq" element={<FaQ />} />
+          <Route path="/chat" element={<iframe src="/chat.html" width="100%" height="500px" />} />
         </Routes>
-      {/* </Router> */}
-          <Toaster />
-      </BrowserRouter>
+      </Router>
 
     </>
   )
